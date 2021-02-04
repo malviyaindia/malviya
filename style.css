@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+body {
+    font-size: 15pt;
+    margin: 50% 15% ;
+    background: #000030;
+    color: white;
+    text-align: center;
+     
+  animation: shine linear alternate-reverse 4s;
+}
+h1{
+  font-size: 45pt;
+  font-family: 'Inknut Antiqua',sans-serif;
+  
+  background: linear-gradient(transparent,rgba(0, 0, 0,0.22),transparent);
+	
+  background: -webkit-linear-gradient(#FF9933 40%, #FFFFFF 50%,#138808 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+}
+
+@keyframes shine {
+  to {filter: brightness(0%);}
+  form { filter: brightness(300%);}
+  
+}
